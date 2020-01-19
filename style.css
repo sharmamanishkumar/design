@@ -1,0 +1,16 @@
+*{box-sizing: border-box;}
+body{margin: 0; font-family: 'Times New Roman', Times, serif; display: flex; flex-direction: column;}
+header{display: flex; align-items: center; flex-direction: row;}
+header ul{ display: flex; padding: 10px; list-style: none; margin: auto;}
+.rightimg{ height: 40px; width: 40px; border-radius: 10px;}
+.rightnav ul{}
+a{text-decoration: none; padding: 6px;}
+ul{display: flex;}
+li a{display: flex; justify-content: flex-end;}
+.main{display: flex; justify-content: space-evenly;}
+hr{flex-basis: 600px; display: flex;}
+.air{text-align: center; font-size: 30px;}
+.design-container{display: flex; justify-content: space-between; }
+.design-box{border: 1px solid #eee; flex-basis: 32%; padding: 10px;
+}
+.design-box img{width: 100%;}
